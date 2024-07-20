@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Room Allocation System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Room Allocation System</h1>
+        <form id="uploadForm">
+            <label for="groupFile">Upload Group CSV File:</label>
+            <input type="file" id="groupFile" accept=".csv" required>
+            <br>
+            <label for="hostelFile">Upload Hostel CSV File:</label>
+            <input type="file" id="hostelFile" accept=".csv" required>
+            <br>
+            <button type="submit">Upload and Allocate Rooms</button>
+        </form>
+        <div id="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
